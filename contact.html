@@ -88,28 +88,29 @@
 			<div class="container contact-form mar-btm-xlg">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-6">
-						<form class="validate-form">
+					 <form class="validate-form" action="https://formspree.io/christian@digitostudio.com"
+                  method="POST">
 							<div class="row">
 								<div class="input-row col-md-6">
 									<label for="name">Name</label>
-									<input type="text" class="form-control required-field" id="name" placeholder="Name" required>
+									<input type="text" class="form-control required-field" id="name" placeholder="Name" name="name" required>
 								</div>
 								<div class="input-row col-md-6">
 									<label for="mail">Email address</label>
-									<input type="email" class="form-control required-email" id="mail" placeholder="Email" required>
+									<input type="email" class="form-control required-email" id="mail" placeholder="Email" name="_replyto" required>
 								</div>
 							</div>
 							<div class="row">
 								<div class="input-row col-md-6">
 									<label for="phone">Phone</label>
-									<input type="tel" class="form-control required-number" id="phone" placeholder="Phone Number" required>
+									<input type="tel" class="form-control required-number" id="phone" placeholder="Phone Number" name="telephone"required>
 								</div>
 								<div class="input-row col-md-6">
 									<label for="topic">Topic</label>
-									<select id="topic" class="form-control required-select">
+									<select id="topic" class="form-control required-select" name="topic">
 										<option>Select</option>
+                    <option>New Project</option>
 										<option>Project in process</option>
-										<option>New Project</option>
 										<option>General Inquiry</option>
 										<option>Say Hello</option>
 									</select>
@@ -117,17 +118,22 @@
 							</div>
 							<div class="row">
 								<div class="input-row col-md-12">
-									<label for="message">Comment</label>
-									<textarea id="message" cols="30" rows="10" placeholder="Say Hello!" class="form-control required-field" required></textarea>
+									<label for="message">Message</label>
+									<textarea id="message" cols="30" rows="10" placeholder="Message" class="form-control required-field" name="message" required></textarea>
 								</div>
 								<div id="submit-btn">
-									<input type="submit" value="send">
+									<input type="Submit" value="Send">
 									<i class="arrow right-arrow"></i>
 								</div>
 							</div>
 						</form>
+
 						<small id="msg-submit-form" class="form-success hidde">We will back to you as soon as possible. Thanks!</small>
-					</div>
+
+            <!-- By default, after submitting a form the user is shown the Formspree "Thank You" page. You can provide an alternative URL for that page. -->
+            <input type="hidden" name="_next" value="thanks.html" />
+
+          </div>
 				</div>
 			</div>
 			<!-- ./Contact form -->
