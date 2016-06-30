@@ -1,0 +1,297 @@
+
+/* main font family & font color for body and main text */
+body {
+  /*font-family: "Oxygen", "HelveticaNeue", helvetica, Arial, sans-serif !important; color: rgb(29, 29, 29);*/
+  font-family: "HelveticaNeue", helvetica, Arial, sans-serif !important; color: rgb(29, 29, 29);
+}
+
+/* secondary font family */
+h1,
+h2,
+h3,
+h4,
+figcaption,
+.header .meta > em,
+.filter-nav li a,
+.comments-section span,
+.slider-module .carousel-inner .carousel-caption span,
+.blog-sidebar input,
+.avatar-holder .holder time,
+.claim,
+.heading-section small,
+.testimonial-title,
+.portfolio-grid .caption span,
+.media-container .caption .holder,
+.alt-font {font-family: "HelveticaNeue", helvetica, Arial, sans-serif !important; color: rgb(29, 29, 29);}
+.noto-font { font-family: "Noto Serif", times, serif; }
+p{font-family: 'Libre Baskerville', serif; }
+
+/* general font styles */
+.bold{font-weight: bold;}
+
+/* general details colors > emphasis color */
+h1,
+a,
+a:visited,
+p > a,
+p > a:hover,
+.link-area .links-section a:hover,
+.post-main .header .meta em a:hover,
+.commentlist a,
+#page-title,
+.fltrs-trggr i,
+.filter-nav li.active a,
+.filter-nav li.active a:hover,
+.btn-top,
+.heading-section .meta-cats a:hover,
+.links-section .link span,
+.dropdown-menu > li > a,
+.team-member small,
+.map-zoom a i,
+.blog-sidebar .widget_search button[type="submit"] i:hover,
+.widget.widget_recent_entries > ul li:hover .wdgt-counter,
+.blog-sidebar .widget a:hover,
+.avatar-holder .holder h2 a:hover,
+.widget_calendar #wp-calendar tbody td a,
+.form-control,
+input[type="submit"]:hover,
+#submit-btn:hover:after,
+.highlight,
+.team-member footer h5,
+.heading-section small,
+.intro .meta-cats,
+.post-article .text .meta em a:hover,
+.top-single-prjct-pag .project-title-pag,
+.btn-primary .badge,
+.comments-section h4,
+.heading-section .contact-list a:hover { color: #000000; }
+.filters-icon .icn-wrapper svg circle { stroke: #000000; }
+/* color for text selection */
+::selection { color: #000000; }
+::-moz-selection { color: #000000; }
+
+/* general details colors > emphasis background color */
+#preloader span,
+p > a:after,
+hr,
+.links-section.blog .links-holder li a:after,
+.dropdown-menu > li a:after,
+.accordion > li.active > .accordion-opener,
+.accordion > li > .accordion-opener:hover,
+#footer .container-fluid,
+.post-article .text h2 a:after,
+.block-holder:before,
+.slider-module:before,
+.modal-backdrop,
+#compact-menu,
+.progress-bar,
+.label-default,
+.badge,
+.btn-primary,
+.btn-primary:hover,
+.well,
+.media-container .caption .holder,
+#wrapper .navbar-toggle.collapsed,
+#wrapper .navbar-toggle,
+#wrapper .navbar-toggle,
+#footer { background: #000000; }
+
+/* main navigation & other nav details
+   like arrows or sidebar widgets */
+.navbar-nav > li > a:active,
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:hover {color: inherit;}
+.navbar-nav > li > a:hover:after {background: #000000;}
+.navbar-nav > li.open > a,
+.navbar-nav > li.active > a,
+.navbar-nav > li.hover > a { color: #000000; }
+.navbar-nav > li.open > a:after,
+.navbar-nav > li.active > a:after,
+.navbar-nav > li.hover > a:after,
+.single-post .link-area:before,
+.single-post .link-area,
+body:not(.single-post) a:hover .arrow,
+#submit-btn .arrow,
+.blog-sidebar .widget a:hover .arrow { background: #000000; }
+body:not(.single-post) a:hover .right-arrow:after,
+#submit-btn .right-arrow:after,
+.blog-sidebar .widget a:hover .right-arrow:after {border-left-color: #000000;}
+body:not(.single-post) a:hover .left-arrow:after,
+#submit-btn .left-arrow:after,
+.blog-sidebar .widget a:hover .left-arrow:after {border-right-color: #000000;}
+.widget.widget_recent_entries > ul li:hover .wdgt-counter:before,
+.widget_tag_cloud a:hover { border-color: #000000; }
+
+
+/* media queries for better control
+   about headings presentation */
+/* Big desktop screens like iMac 27' */
+@media only screen and (min-width: 1921px) {
+  #main .heading-section:not(.no-centered-heading) .big-heading h1,
+  .heading-section:not(.no-centered-heading) .intro h1 { font-size: 80px; }
+  #main .heading-section .big-heading p,
+  .heading-section .intro p { font-size: 25px; }
+  .portfolio-single #main .heading-section p { width: 65%; }
+}
+
+/* Large desktop screens around 1920x1080 */
+@media only screen and (min-width: 1281px) and (max-width: 1920px) {
+  #main .heading-section:not(.no-centered-heading) .big-heading h1,
+  .heading-section:not(.no-centered-heading) .intro h1 { font-size: 4.75vw; }
+  #main .heading-section .big-heading p,
+  .heading-section .intro p { font-size: 18px; }
+  .portfolio-single #main .heading-section p { width: 50%; }
+}
+
+@media screen and (min-width: 1200px){
+  .container {
+      width: 100%;
+      max-width: 1020px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  #wrapper{
+    background: inherit;
+  }
+}
+
+
+
+.portfolio-grid .caption span{
+  color: white;
+}
+
+/* overlay color for projects/blog items within the grid when hovering */
+/* portfolio projects overlay when hover the item */
+.portfolio-list .prjct-item a:after,
+/* blog items overlay when hover the post entry */
+.post-article .img-holder .caption  {
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transition: all .25s ease;
+     -moz-transition: all .25s ease;
+       -o-transition: all .25s ease;
+          transition: all .25s ease;
+}
+
+
+/* page bg colors*/
+.about{ background: palegoldenrod; }
+.portfolio-page {background: #F1F3F5;}
+
+/* custom navs */
+.navbar-nav > li > a {
+  color: black;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+
+#main .heading-section{
+  margin-bottom: 20px;
+}
+
+.meta-cats li a{
+  font-weight: normal;
+  color: #C5C5C5;
+  opacity: 0.45;
+  border: 1px solid #c5c5c5;
+  padding: 4px 8px;
+}
+
+.meta-cats li:after{display: none;}
+
+#map {
+  height: 400px !important;
+}
+
+.map-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.6+0,0+48 */
+background: -moz-linear-gradient(top,  rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 48%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 48%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 48%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
+#header{
+  padding:30px 0;
+}
+
+.intro h1{
+  font-weight: bold;
+  letter-spacing: -3px;
+}
+
+.intro p, .feat-text{
+  color:#888888;
+}
+
+
+#main{
+  padding-top: 16vh;
+}
+
+#main .big-heading{
+  margin-top:60px;
+}
+
+#main .big-heading p{
+  width: 53%;
+}
+
+
+.gray-bg{
+  background: #F8F8F8;
+}
+
+.filter-nav{
+  top:3.5%;
+}
+
+.logo a{
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  #wrapper .navbar-toggle.collapsed, #wrapper .navbar-toggle {
+    background:transparent;
+  }
+}
+
+@media only screen and (max-width: 415px){
+
+  .home #main, #main{
+    padding-top: 175px;
+  }
+
+}
+
+.map-zoom{
+  top: auto;
+  bottom:7%;
+}
+
+.gmnoprint, .gm-style-cc{
+  display:none !important;
+}
+
+#compact-menu{
+  background: #464646;
+}
+
+.mar-btm-lg{
+  margin-bottom: 0;
+}
+
+.contact #main{
+  padding-top: 0;
+}
+
+#footer{
+  font-weight: lighter;
+}

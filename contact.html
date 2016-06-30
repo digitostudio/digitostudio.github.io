@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="description" content="Büro is a unique minimalist Premium HTML5 Template for creative agencies and freelances">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Digito Design">
+  <meta property="og:url" content="//digitodesign.com">
+  <meta property="og:description" content="We are Digito Design">
+  <meta property="og:image" content="//digitodesign.com/img/logo.png">
+  <meta property="og:type" content="website">
+
+  <title>digito</title>
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i|Oxygen:300,400,700" rel="stylesheet">
+  <!-- Main styles -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom-styles.css">
+</head>
+<body class="contact no-menu-hover" data-page="regular">
+  <!-- Preloader -->
+  <div id="preloader">
+    <span class="preloader-ani"></span>
+  </div>
+
+	<div id="wrapper">
+		<!-- Head, logo & navigation -->
+		    <header id="header" class="container-fluid">
+      <div class="container">
+        <nav class="navbar">
+          <div class="navbar-header">
+            <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button"><span></span></button>
+              <!-- Logo -->
+            <div class="logo">
+              <a href="index.html">
+                <img src="images/digito-logo.svg" width="100" height="32" alt="Digito Design">
+              </a>
+            </div>
+          </div>
+          <!-- Main navigation -->
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="index.html" data-title="case studies" data-subtitle="case studies">Case studies</a>
+              </li>
+              <li >
+                <a href="about.html" data-title="digito" data-subtitle="The Agency">About</a>
+              </li>
+<!--               <li>
+                <a href="blog.html" data-title="News" data-subtitle="Read our Blog">Blog</a>
+              </li> -->
+              <li class="active">
+                <a href="contact.html" data-title="hello" data-subtitle="Say Hello">Let's chat</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- ./Main navigation -->
+      </div>
+    </header>
+
+    <!-- Map -->
+      <div class="map-container mar-btm-lg" data-map-height="675">
+          <div class="map-overlay"></div>
+          <div id="map"></div>
+      </div>
+
+		<!-- Main content -->
+		<main id="main">
+			<!-- Page head/intro title & subtitle -->
+			<div class="container mar-btm-md">
+				<div class="intro col-md-6 col-md-offset-6">
+					<p>We are always on the lookout for exciting new projects and great people to collaborate with. If you are looking for a creative partnership, get it in touch!</p>
+				</div>
+			</div>
+
+			<!-- Contact form -->
+			<div class="container contact-form mar-btm-xlg">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-6">
+						<form class="validate-form">
+							<div class="row">
+								<div class="input-row col-md-6">
+									<label for="name">Name</label>
+									<input type="text" class="form-control required-field" id="name" placeholder="Name" required>
+								</div>
+								<div class="input-row col-md-6">
+									<label for="mail">Email address</label>
+									<input type="email" class="form-control required-email" id="mail" placeholder="Email" required>
+								</div>
+							</div>
+							<div class="row">
+								<div class="input-row col-md-6">
+									<label for="phone">Phone</label>
+									<input type="tel" class="form-control required-number" id="phone" placeholder="Phone Number" required>
+								</div>
+								<div class="input-row col-md-6">
+									<label for="topic">Topic</label>
+									<select id="topic" class="form-control required-select">
+										<option>Select</option>
+										<option>Project in process</option>
+										<option>New Project</option>
+										<option>General Inquiry</option>
+										<option>Say Hello</option>
+									</select>
+								</div>
+							</div>
+							<div class="row">
+								<div class="input-row col-md-12">
+									<label for="message">Comment</label>
+									<textarea id="message" cols="30" rows="10" placeholder="Say Hello!" class="form-control required-field" required></textarea>
+								</div>
+								<div id="submit-btn">
+									<input type="submit" value="send">
+									<i class="arrow right-arrow"></i>
+								</div>
+							</div>
+						</form>
+						<small id="msg-submit-form" class="form-success hidde">We will back to you as soon as possible. Thanks!</small>
+					</div>
+				</div>
+			</div>
+			<!-- ./Contact form -->
+
+
+			<!-- Newsletter form -->
+<!-- 			<div class="container newsletter mar-btm-lg">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-6">
+						<h5>Stay tunned</h5>
+						<p class="feat-text highlight">Subscribe to our newsletter in order to stay updated about our new projects.</p>
+						<form class="validate-news">
+						  <div class="row input-row col-md-12">
+						    <input type="email" id="news-mail" class="form-control required-email" placeholder="Your e-mail">
+						  </div>
+						  <button type="submit" class="btn btn-submit">Subscribe<i class="arrow right-arrow"></i></button>
+						</form>
+						<small>* we promise that we won´t spam you, never.</small>
+						<small id="msg-submit-news" class="form-success hidde">You have been succesfully subscribed to our newsletter</small>
+					</div>
+				</div>
+			</div> -->
+			<!-- ./Newsletter form -->
+
+			<!-- Go top button/arrow -->
+			<a href="#wrapper" class="btn-top go js-link"><i class="arrow right-arrow"></i></a>
+		</main>
+		<!-- #/main content area -->
+
+    <!-- Footer area -->
+      <footer id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div><a href="#">Digito Design</a></div>
+            </div>
+            <div class="col-md-3">
+              <address>San Francisco, CA</address>
+            </div>
+            <div class="col-md-3">
+              <a href="mailto:hello@digitodesign.com">hello@digitodesign.com</a>
+            </div>
+            <div class="col-md-3">
+              <ul class="list-inline social-networks text-right">
+                <li><a href="#"><i class="icon-twitter"></i></a></li>
+                <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                <li><a href="#"><i class="icon-behance"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- ./Footer area -->
+
+	<!-- Main scripts -->
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script>
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+		  var msViewportStyle = document.createElement("style")
+		  msViewportStyle.appendChild(
+			document.createTextNode(
+			  "@-ms-viewport{width:auto!important}"
+			)
+		  )
+		  document.getElementsByTagName("head")[0].appendChild(msViewportStyle)
+		}
+	</script>
+
+
+  <!-- Google Map JS -->
+  <script type='text/javascript'>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+            center: {lat: 37.7749295, lng: -122.41941550000001},
+            zoom: 13,
+            map: map,
+            title: 'Hello World!',
+            zoomControl: false,
+            mapTypeControl: false,
+            scaleControl: false,
+            streetViewControl: false,
+            rotateControl: false,
+            fullscreenControl: false
+        });
+        map.set('styles', [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#dde6e8"},{"visibility":"on"}]}]);
+        map.setOptions({draggable: false, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true});
+
+        var myIcon = new google.maps.MarkerImage("images/map-logo.png", null, null, null, new google.maps.Size(113,67));
+
+        var marker = new google.maps.Marker({
+          position: map.getCenter(),
+          icon: myIcon,
+          title: 'digito',
+          map: map
+        });
+      }
+  </script>
+  <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoGT8X2idkCTCRjMflu9IYTQTnJFGV3aI&callback=initMap">
+  </script>
+  <!-- END Google Map JS -->
+
+</body>
+</html>
