@@ -177,7 +177,7 @@ body:not(.single-post) a:hover .left-arrow:after,
 
 /* page bg colors*/
 .about{ background: palegoldenrod; }
-.portfolio-page {background: #F1F3F5;}
+/*.portfolio-page {background: #F1F3F5;}*/
 
 /* custom navs */
 .navbar-nav > li > a {
