@@ -186,6 +186,14 @@ body:not(.single-post) a:hover .left-arrow:after,
   font-weight: bold;
 }
 
+#particles-js{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #main .heading-section{
   margin-bottom: 20px;
 }
