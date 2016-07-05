@@ -12,7 +12,7 @@
   <meta property="og:image" content="//digitodesign.com/img/logo.png">
   <meta property="og:type" content="website">
 
-	<title>digito</title>
+	<title>Digito - Home</title>
 
 	<!-- Favicon -->
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
@@ -95,7 +95,9 @@
 				<span id="prtfl-anchor" class="container go"></span>
 				<div class="container portfolio-grid">
 					<div class="row">
-						<div class="col-sm-6">
+
+          <!-- Project filters -->
+          <div class="col-sm-6">
 							<a class="fltrs-trggr go" href="#prtfl-anchor">
 								<div class="filters-icon">
 						            <div class="icn-wrapper">
@@ -111,33 +113,35 @@
 							<!-- you can setup your filter categories in a very easy way -->
 							<!-- just by adding 'data-filter' and your category as value -->
 							<!-- for example: -->
-							<!-- data-filter="branding" -->
 							<li class="active"><a href="#prtfl-anchor" data-filter="all">All</a></li>
 							<li><a href="#prtfl-anchor" data-filter="branding">Branding</a></li>
 							<li><a href="#prtfl-anchor" data-filter="web">Web</a></li>
-							<li><a href="#prtfl-anchor" data-filter="mobile">Mobile</a></li>
-							<!-- <li><a href="#prtfl-anchor" data-filter="photography">Photography</a></li> -->
-							<!-- <li><a href="#" data-filter="web">Web</a></li> -->
-
+							<!-- <li><a href="#prtfl-anchor" data-filter="mobile">Mobile</a></li> -->
+              <li>More projects coming soon...</li>
 						</ul>
 					</div>
+
 					<!-- Set here the columns number: 'cols-2' is the default value -->
-					<div class="js-ajax-holder projects cols-1">
+					<div class="js-ajax-holder projects cols-2">
 						<div class="row portfolio-list js-ajax-container">
 							<!-- 'data-filter' attributes allow you to join the item with the category -->
 							<!-- this category must be the same that previously within 'filter-nav' -->
-							<div class="img-holder prjct-item" data-filter="branding">
-								<a href="/introhq/">
-									<img src="images/grid-projects/project-intro@2x.png" alt="image description" class="img-responsive" width="672" height="672">
-									<span class="caption">IntroHQ<span>— UX, UI, HTML, CSS </span></span>
-								</a>
-							</div>
-<!-- 							<div class="img-holder prjct-item" data-filter="branding">
-                <a href="project-intro.html">
+							<div class="img-holder prjct-item" data-filter="web">
+
+                <a href="/projects/introhq/">
                   <img src="images/grid-projects/project-intro@2x.png" alt="image description" class="img-responsive" width="672" height="672">
-                  <span class="caption">IntroHQ<span>— UX, UI, HTML, CSS </span></span>
+								</a>
+                <h4 class="bold mar-top-xs">IntroHQ</h4>
+                <p class="text-small">— UX, UI, HTML, CSS</p>
+							</div>
+
+							<div class="img-holder prjct-item" data-filter="branding">
+                <a href="/projects/metamask/index.html">
+                  <img src="images/grid-projects/metamask.png" alt="image description" class="img-responsive" width="672" height="672">
                 </a>
-              </div> -->
+                <h4 class="bold mar-top-xs">MetaMask</h4>
+                <p class="text-small">— Branding</p>
+              </div>
 
 						</div>
 					</div>

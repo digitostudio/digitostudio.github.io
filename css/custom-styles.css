@@ -167,7 +167,7 @@ body:not(.single-post) a:hover .left-arrow:after,
 .portfolio-list .prjct-item a:after,
 /* blog items overlay when hover the post entry */
 .post-article .img-holder .caption  {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(255, 255, 255, 0.5);
   -webkit-transition: all .25s ease;
      -moz-transition: all .25s ease;
        -o-transition: all .25s ease;
