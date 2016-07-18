@@ -313,4 +313,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99ffffff', e
 
 #footer{
   font-weight: lighter;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+#footer .container .copyright{
+  color: gray;
+  line-height: 1.55em;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
