@@ -1,9 +1,33 @@
+@font-face{
+    font-family:"DIN Next LT W04 Light";
+    src:url("../fonts/1448929/a6b05bd7-1f09-4c3e-93a5-8b7d432291b3.eot?#iefix");
+    src:url("../fonts/1448929/a6b05bd7-1f09-4c3e-93a5-8b7d432291b3.eot?#iefix") format("eot"),url("../fonts/1448929/8a3ff076-5846-4401-9d7e-10993afac709.woff2") format("woff2"),url("../fonts/1448929/f69bc269-16e5-4f8a-80eb-b049139324fd.woff") format("woff"),url("../fonts/1448929/7742af6c-6711-4ca8-9f62-44005bde2243.ttf") format("truetype");
+}
+@font-face{
+    font-family:"DIN Next LT W04 Regular";
+    src:url("../fonts/1448933/bbb280b3-b74d-49f2-908d-0395516a3dc8.eot?#iefix");
+    src:url("../fonts/1448933/bbb280b3-b74d-49f2-908d-0395516a3dc8.eot?#iefix") format("eot"),url("../fonts/1448933/95d17c42-537a-4cbf-a8c1-60fcc6edf28f.woff2") format("woff2"),url("../fonts/1448933/3097f8f0-50b7-4d8d-8745-6281850a1b05.woff") format("woff"),url("../fonts/1448933/ac4b95cb-49c4-493a-a895-471d763cea38.ttf") format("truetype");
+}
+@font-face{
+    font-family:"DIN Next LT W04 Heavy";
+    src:url("../fonts/1448945/a9cb1e62-dd18-4277-958e-8605c83c094d.eot?#iefix");
+    src:url("../fonts/1448945/a9cb1e62-dd18-4277-958e-8605c83c094d.eot?#iefix") format("eot"),url("../fonts/1448945/00d3c347-ec78-4059-a433-5120761e6f01.woff2") format("woff2"),url("../fonts/1448945/def46c8f-58f0-4bb8-b2e4-f853d75f6279.woff") format("woff"),url("../fonts/1448945/0086faa7-7391-4317-a9f2-3c95751305c6.ttf") format("truetype");
+}
 
 /* main font family & font color for body and main text */
 body {
   /*font-family: "Oxygen", "HelveticaNeue", helvetica, Arial, sans-serif !important; color: rgb(29, 29, 29);*/
-  font-family: "HelveticaNeue", helvetica, Arial, sans-serif !important; color: rgb(29, 29, 29);
+  font-family: "DIN Next LT W04 Regular", helvetica, Arial, sans-serif !important; color: rgb(29, 29, 29);
 }
+
+.regular{
+  font-family:"DIN Next LT W04 Regular" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 
 /* secondary font family */
 h1,
@@ -22,12 +46,24 @@ figcaption,
 .testimonial-title,
 .portfolio-grid .caption span,
 .media-container .caption .holder,
-.alt-font {font-family: "HelveticaNeue", helvetica, Arial, sans-serif !important; color: rgb(29, 29, 29);}
-.noto-font { font-family: "Noto Serif", times, serif; }
-p{font-family: 'Libre Baskerville', serif; }
+.alt-font {font-family: "DIN Next LT W04 Regular", helvetica, Arial, sans-serif !important; color: rgb(29, 29, 29);}
+.noto-font { font-family: "DIN Next LT W04 Regular", times, serif; }
+p{font-family: 'DIN Next LT W04 Regular', serif; }
 
-/* general font styles */
-.bold{font-weight: bold;}
+
+
+.bold{
+  font-family:"DIN Next LT W04 Heavy" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
 
 /* general details colors > emphasis color */
 h1,
@@ -251,7 +287,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99ffffff', e
 }
 
 #main .big-heading p{
-  width: 80%;
+  width: 50%;
 }
 
 
