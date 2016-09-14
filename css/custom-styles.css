@@ -299,6 +299,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99ffffff', e
   top:3.5%;
 }
 
+.logo{
+  animation-delay: 2s;
+}
+
 .logo a{
   padding-left: 0;
 }
