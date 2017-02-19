@@ -53,7 +53,7 @@ p{font-family: 'DIN Next LT W04 Regular', serif; }
 
 
 .bold{
-  font-family:"DIN Next LT W04 Heavy" !important;
+  /*font-family:"DIN Next LT W04 Heavy" !important;*/
   font-style:normal;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
