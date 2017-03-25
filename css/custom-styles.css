@@ -17,11 +17,11 @@
 /* main font family & font color for body and main text */
 body {
   /*font-family: "Oxygen", "HelveticaNeue", helvetica, Arial, sans-serif !important; color: rgb(29, 29, 29);*/
-  font-family: "DIN Next LT W04 Regular", helvetica, Arial, sans-serif !important; color: rgb(29, 29, 29);
+  font-family: "DIN Next LT W04 Light", helvetica, Arial, sans-serif !important; color: rgb(29, 29, 29);
 }
 
 .regular{
-  font-family:"DIN Next LT W04 Regular" !important;
+  font-family:"DIN Next LT W04 Light" !important;
   font-size:16px;font-style:normal;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
@@ -46,9 +46,9 @@ figcaption,
 .testimonial-title,
 .portfolio-grid .caption span,
 .media-container .caption .holder,
-.alt-font {font-family: "DIN Next LT W04 Regular", helvetica, Arial, sans-serif !important; color: rgb(29, 29, 29);}
-.noto-font { font-family: "DIN Next LT W04 Regular", times, serif; }
-p{font-family: 'DIN Next LT W04 Regular', serif; }
+.alt-font {font-family: "DIN Next LT W04 Light", helvetica, Arial, sans-serif !important; color: rgb(29, 29, 29);}
+.noto-font { font-family: "DIN Next LT W04 Light", times, serif; }
+p{font-family: 'DIN Next LT W04 Light', serif; }
 
 
 
